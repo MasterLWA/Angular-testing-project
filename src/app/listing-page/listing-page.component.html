@@ -1,0 +1,19 @@
+<div>
+  <div class="content-box" *ngFor="let Listing of Listing">
+    <div class="context-box__header">
+      <div class="context-box__header__title">
+        <h1>{{Listing.name}}</h1>
+      </div>
+      <div class="context-box__header__subtitle">
+        <h4>{{Listing.description}}</h4>
+      </div>
+    <div class="context-box__footer">
+      <div class="context-box__footer__button">
+        <button class="btn btn--primary" >Edit</button>
+      </div>
+      <div class="context-box__footer__button">
+        <button class="btn btn--danger">Delete</button>
+      </div>
+    </div>
+  </div>
+</div>
